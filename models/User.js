@@ -1,6 +1,4 @@
 const { Schema, model } = require('mongoose');
-const thoughtSchema = require('./Thought');
-
 
 const UserSchema = new Schema(
   {
@@ -17,7 +15,10 @@ const UserSchema = new Schema(
       match: /.+\@.+\..+/
     },
     //subdocument
-    thoughts: [thoughtSchema],
+    thoughts: [   {
+      type: Schema.Types.ObjectId,
+      ref: 'Thought',
+    },],
     //will need a populate
     friends: [
         {
