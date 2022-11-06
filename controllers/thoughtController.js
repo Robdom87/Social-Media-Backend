@@ -72,7 +72,7 @@ module.exports = {
       .then((user) =>  
         !user
           ? res.status(404).json({ message: 'No such thought exists' })
-          : res.json(user.thoughts)
+          : res.json(user)
       )
       .catch((err) => {
         console.log(err);
