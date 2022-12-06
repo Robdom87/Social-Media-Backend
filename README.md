@@ -3,7 +3,15 @@
 ## Description
 spokenThoughts_API_routing creates the back end routing with which to create, view, update, and delete users, posts, and reactions within MongoDB.
 
-## URL Requests
+## Installation
+spokenThoughts_API_routing does not require installation.
+
+spokenThoughts_API_routing is dependant on MySQL being present in the users computer. Click here to downnload MySQL.
+
+## Usage
+The user can view, add, update, and delete the following subjects: Users, Posts, and Reactions to the database.
+
+Below is the functionality provided alongside the appropriate routing.
 
 - View All Users
   - GET /api/users
@@ -44,5 +52,19 @@ spokenThoughts_API_routing creates the back end routing with which to create, vi
   - POST /api/thoughts/:thoughtId
 - Remove Reaction
   - DELETE /api/thoughts/:thoughtId/reactions/:reactionId
+  
 
-[Walk-Thru](https://drive.google.com/file/d/1gePNrytEkB3WeAXjTMFP7r-CT8pC8Twm/view)
+## Walk Through Video
+[Link](https://drive.google.com/file/d/1gePNrytEkB3WeAXjTMFP7r-CT8pC8Twm/view)
+
+## License
+MIT License
+
+Copyright (c) [2022] [e-commerce_routing]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
