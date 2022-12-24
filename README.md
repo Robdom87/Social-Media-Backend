@@ -1,12 +1,12 @@
-# spokenThoughts_API_routing
+# Social-Media-Backend
 
 ## Description
-spokenThoughts_API_routing creates the back end routing with which to create, view, update, and delete users, posts, and reactions within MongoDB.
+Social-Media-Backend creates the back end routing with which to create, view, update, and delete users, posts, and reactions within MongoDB.
 
 ## Installation
-spokenThoughts_API_routing does not require installation.
+Social-Media-Backend does not require installation.
 
-spokenThoughts_API_routing is dependant on MySQL being present in the users computer. Click here to downnload MySQL.
+Social-Media-Backend is dependant on MongoDB being present in the users computer. Click here to downnload MongoDB.
 
 ## Usage
 The user can view, add, update, and delete the following subjects: Users, Posts, and Reactions to the database.
@@ -60,7 +60,7 @@ Below is the functionality provided alongside the appropriate routing.
 ## License
 MIT License
 
-Copyright (c) [2022] [e-commerce_routing]
+Copyright (c) [2022]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
